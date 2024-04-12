@@ -4,7 +4,6 @@
   переключая тему
 */
 
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -13,25 +12,28 @@
   --bg-color: rgba(53, 52, 48, 1);
   --text-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
-  --subtitle:  rgba(53, 52, 48, 1);
+  --outline: 1px solid rgba(255, 0, 112, 0.4);
+  --border: 1px solid rgba(255, 0, 112, 1);
+  --subtitle: rgba(53, 52, 48, 1);
   --title-text: rgba(255, 194, 230, 1);
-  --section-title:rgba(53, 52, 48, 1);
+  --section-title: rgba(53, 52, 48, 1);
   --button-color: rgba(53, 52, 48, 1);
   --decorated-zone: rgba(53, 52, 48, 1);
   --title-shadow: 4px 4px var(--accent-color);
   --text-shadow: 2px 2px var(--accent-color);
   --background-image: url(../images/cover-image-light.png);
-  }
-  
+}
 
-@media (prefers-color-scheme:light) {
+@media (prefers-color-scheme: light) {
   :root {
     --bg-color: rgba(53, 52, 48, 1);
     --text-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
-    --subtitle:  rgba(53, 52, 48, 1);
+    --outline: 1px solid rgba(255, 0, 112, 0.4);
+    --border: 1px solid rgba(255, 0, 112, 1);
+    --subtitle: rgba(53, 52, 48, 1);
     --title-text: rgba(255, 194, 230, 1);
-    --section-title:rgba(53, 52, 48, 1);
+    --section-title: rgba(53, 52, 48, 1);
     --button-color: rgba(53, 52, 48, 1);
     --decorated-zone: rgba(53, 52, 48, 1);
     --title-shadow: 4px 4px var(--accent-color);
@@ -43,5 +45,3 @@
 .page.theme_light .header__decor {
   display: none;
 }
-
-
