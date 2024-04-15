@@ -21,7 +21,7 @@
   --button-color: rgba(255, 0, 112, 1);
   --decorated-zone: rgba(255, 0, 112, 1);
   --title-shadow: 4px 4px var(--decorated-zone);
-  --text-shadow: 2px 2px var(--decorated-zone);
+  --text-shadow: 2px 2px var(--accent-color);
   --background-image: url(../images/cover-image-dark.png);
 }
 
@@ -38,7 +38,7 @@
     --button-color: rgba(255, 0, 112, 1);
     --decorated-zone: rgba(255, 0, 112, 1);
     --title-shadow: 4px 4px var(--decorated-zone);
-    --text-shadow: 2px 2px var(--decorated-zone);
+    --text-shadow: 2px 2px var(--accent-color);
     --background-image: url(../images/cover-image-dark.png);
   }
 }
