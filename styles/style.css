@@ -99,7 +99,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: var(--outline);
+  border-block-end: var(--border);
   outline: transparent;
 }
 
