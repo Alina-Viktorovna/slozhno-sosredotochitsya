@@ -12,7 +12,7 @@
   --bg-color: rgba(53, 52, 48, 1);
   --text-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
-  --outline: 1px solid rgba(255, 0, 112, 0.4);
+  --outline: 1px solid rgba(50, 49, 45, 0.4);
   --border: 1px solid rgba(53, 52, 48, 1);
   --subtitle: rgba(53, 52, 48, 1);
   --title-text: rgba(255, 194, 230, 1);
@@ -33,7 +33,7 @@
     --bg-color: rgba(53, 52, 48, 1);
     --text-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
-    --outline: 1px solid rgba(255, 0, 112, 0.4);
+    --outline: 1px solid rgba(50, 49, 45, 0.4);
     --border: 1px solid rgba(53, 52, 48, 1);
     --subtitle: rgba(53, 52, 48, 1);
     --title-text: rgba(255, 194, 230, 1);

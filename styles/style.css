@@ -185,13 +185,14 @@
   }
 
   .header__title {
+    line-height: 99px;
     margin-inline-start: -9px;
     grid-column: 1/3;
     grid-row: 2/3;
   }
 
   .header-paragraph {
-    margin-block-end: 46px;
+    margin-block-end: 48px;
     margin-inline-end: 11px;
     grid-column: 2;
     grid-row: 3/3;
@@ -211,18 +212,17 @@
 }
 
   .header__theme-menu-list {
-      display: flex;
       flex-direction: row;
-      justify-content: center;
       gap: 10px;
   }
 
   .header__title {
+    line-height: 129.53px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header-paragraph {
-    margin-block-start: 17px;
+    margin-block-start: -2px;
   }
 }
 
